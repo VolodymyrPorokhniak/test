@@ -63,13 +63,13 @@ export default function SigninPage() {
                       htmlFor="email"
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
-                      Електронна пошта
+                      Адреса електронної пошти
                     </label>
                     <input
                       type="email"
                       name="email"
-                      placeholder="Введіть електронну пошту"
-                      className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                      placeholder="Введіть адресу електронної пошти"
+                      className="w-full rounded-md border border-transparent py-3 px-5 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
                   <div className="mb-8">

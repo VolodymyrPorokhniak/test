@@ -69,8 +69,8 @@ export default function SignupPage() {
                     <input
                       type="text"
                       name="name"
-                      placeholder="Введіть свої повне ім'я"
-                      className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                      placeholder="Введіть повне ім'я"
+                      className="w-full rounded-md border border-transparent py-3 px-5 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
                   <div className="mb-8">
@@ -79,13 +79,13 @@ export default function SignupPage() {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Електронна пошта{" "}
+                      Адреса електронної пошти{" "}
                     </label>
                     <input
                       type="email"
                       name="email"
                       placeholder="Введіть адресу електронної пошти"
-                      className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                      className="w-full rounded-md border border-transparent py-3 px-5 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
                   <div className="mb-8">
@@ -100,7 +100,7 @@ export default function SignupPage() {
                       type="password"
                       name="password"
                       placeholder="Введіть пароль"
-                      className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                      className="w-full rounded-md border border-transparent py-3 px-5 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
                   <div className="mb-8 flex">
@@ -137,7 +137,7 @@ export default function SignupPage() {
                         Створюючи обліковий запис ви погоджуютесь з
                         <a href="https://cybericebox.com/terms" className="text-primary hover:underline">
                           {" "}
-                          Умовами використання{" "}
+                          Умовами використання
                         </a>
                         , та нашою
                         <a href="https://cybericebox.com/privicy" className="text-primary hover:underline">
