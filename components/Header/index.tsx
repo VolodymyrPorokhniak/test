@@ -147,6 +147,22 @@ const Header = () => {
                         )}
                       </li>
                     ))}
+                    <li className="group relative mt-2">
+                      <Link
+                          href="/signin"
+                          className="md:hidden flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:py-6 lg:px-0"
+                      >
+                        Увійти
+                      </Link>
+                    </li>
+                    <li className="group relative">
+                      <Link
+                          href="/signup"
+                          className="md:hidden ease-in-up rounded-md bg-primary py-3 px-8 font-bold flex text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:py-6 lg:px-0"
+                      >
+                        Зареєструватися
+                      </Link>
+                    </li>
                   </ul>
                 </nav>
               </div>
