@@ -117,7 +117,7 @@ export default function SigninPage() {
                             </span>
                           </div>
                         </div>
-                        Запам&aposятати мене на добу
+                        Запам&apos;ятати мене на добу
                       </label>
                     </div>
                     <div>

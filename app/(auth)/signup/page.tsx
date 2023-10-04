@@ -64,7 +64,7 @@ export default function SignupPage() {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Повне ім&aposя{" "}
+                      Повне ім&apos;я{" "}
                     </label>
                     <input
                       type="text"
